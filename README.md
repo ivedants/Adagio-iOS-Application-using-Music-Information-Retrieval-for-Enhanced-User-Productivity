@@ -102,10 +102,10 @@ We use some of these factors into our algorithm to specify which mood a song mus
 
 Thayer came up with a two-dimensional mood model in the late 90’s which was later applied by Microsoft Research Asia. The two dimensions considered in the model are: Stress dimension (happy/anxious) and Energy dimension (calm/energetic). This model effectively helps us divide the music mood into four clusters, each to fit into one of the quadrants as shown in the figure below. 
 In this model, the four clusters refer to the following: 
-1. Contentment: Happy and Calm Music. 
-2. Depression: Calm and Anxious Music. 
-3.Exuberance: Happy and Energetic Music. 
-4. Anxious/Frantic: Anxious and Energetic Music. [4]. 
+1. Contentment: Happy and Calm Music 
+2. Depression: Calm and Anxious Music 
+3. Exuberance: Happy and Energetic Music
+4. Anxious/Frantic: Anxious and Energetic Music [4]. 
 
 The Music Mood Response will be analysed by the application using Thayer’s model of mood and will thus work effectively and more accurately as per the user's requirements at that specific time. This model is the music mood taxonomy that we use for better working of the application.
 
