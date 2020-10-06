@@ -1,0 +1,6 @@
+framework module Pods_Adagio {
+  umbrella header "Pods-Adagio-umbrella.h"
+
+  export *
+  module * { export * }
+}

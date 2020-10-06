@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DBD8ADBC849E86A37EA218E /* Pods_Adagio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE712F6513B2313083E76C1A /* Pods_Adagio.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3872FC1920716AE5004F0883 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3872FC1820716AE4004F0883 /* GoogleService-Info.plist */; };
+		3872FC1B2071F9A6004F0883 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3872FC1A2071F9A6004F0883 /* RegisterPage.swift */; };
+		3890674F205D64A20096CCDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890674E205D64A20096CCDC /* AppDelegate.swift */; };
+		38906751205D64A20096CCDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38906750205D64A20096CCDC /* ViewController.swift */; };
+		38906754205D64A20096CCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38906752205D64A20096CCDC /* Main.storyboard */; };
+		38906756205D64A20096CCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38906755205D64A20096CCDC /* Assets.xcassets */; };
+		38906759205D64A20096CCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38906757205D64A20096CCDC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3872FC1820716AE4004F0883 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3872FC1A2071F9A6004F0883 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		3890674B205D64A20096CCDC /* Adagio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adagio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3890674E205D64A20096CCDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38906750205D64A20096CCDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38906753205D64A20096CCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38906755205D64A20096CCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38906758205D64A20096CCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3890675A205D64A20096CCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D912B884E382D751C2F8F21 /* Pods-Adagio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adagio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Adagio/Pods-Adagio.debug.xcconfig"; sourceTree = "<group>"; };
+		9E2F099B728EDA1E0E2D9087 /* Pods-Adagio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adagio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Adagio/Pods-Adagio.release.xcconfig"; sourceTree = "<group>"; };
+		DE712F6513B2313083E76C1A /* Pods_Adagio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adagio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38906748205D64A20096CCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBD8ADBC849E86A37EA218E /* Pods_Adagio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38906742205D64A20096CCDC = {
+			isa = PBXGroup;
+			children = (
+				3890674D205D64A20096CCDC /* Adagio */,
+				3890674C205D64A20096CCDC /* Products */,
+				A808EA99F38F3126B9F97117 /* Pods */,
+				722A886DA879E8BA3F377E54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3890674C205D64A20096CCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3890674B205D64A20096CCDC /* Adagio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3890674D205D64A20096CCDC /* Adagio */ = {
+			isa = PBXGroup;
+			children = (
+				3890674E205D64A20096CCDC /* AppDelegate.swift */,
+				38906750205D64A20096CCDC /* ViewController.swift */,
+				3872FC1A2071F9A6004F0883 /* RegisterPage.swift */,
+				38906752205D64A20096CCDC /* Main.storyboard */,
+				38906755205D64A20096CCDC /* Assets.xcassets */,
+				38906757205D64A20096CCDC /* LaunchScreen.storyboard */,
+				3890675A205D64A20096CCDC /* Info.plist */,
+				3872FC1820716AE4004F0883 /* GoogleService-Info.plist */,
+			);
+			path = Adagio;
+			sourceTree = "<group>";
+		};
+		722A886DA879E8BA3F377E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE712F6513B2313083E76C1A /* Pods_Adagio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A808EA99F38F3126B9F97117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D912B884E382D751C2F8F21 /* Pods-Adagio.debug.xcconfig */,
+				9E2F099B728EDA1E0E2D9087 /* Pods-Adagio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3890674A205D64A20096CCDC /* Adagio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3890675D205D64A20096CCDC /* Build configuration list for PBXNativeTarget "Adagio" */;
+			buildPhases = (
+				AAB7FB919DADC30CBD580E1D /* [CP] Check Pods Manifest.lock */,
+				38906747205D64A20096CCDC /* Sources */,
+				38906748205D64A20096CCDC /* Frameworks */,
+				38906749205D64A20096CCDC /* Resources */,
+				387BD8985DD2A9158109A5C5 /* [CP] Embed Pods Frameworks */,
+				D6A0886AA82CF32CA2362548 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adagio;
+			productName = Adagio;
+			productReference = 3890674B205D64A20096CCDC /* Adagio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38906743205D64A20096CCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vedant Shrivastava";
+				TargetAttributes = {
+					3890674A205D64A20096CCDC = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 38906746205D64A20096CCDC /* Build configuration list for PBXProject "Adagio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38906742205D64A20096CCDC;
+			productRefGroup = 3890674C205D64A20096CCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3890674A205D64A20096CCDC /* Adagio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38906749205D64A20096CCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38906759205D64A20096CCDC /* LaunchScreen.storyboard in Resources */,
+				3872FC1920716AE5004F0883 /* GoogleService-Info.plist in Resources */,
+				38906756205D64A20096CCDC /* Assets.xcassets in Resources */,
+				38906754205D64A20096CCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		387BD8985DD2A9158109A5C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Adagio/Pods-Adagio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adagio/Pods-Adagio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB7FB919DADC30CBD580E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adagio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6A0886AA82CF32CA2362548 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Adagio/Pods-Adagio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38906747205D64A20096CCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3872FC1B2071F9A6004F0883 /* RegisterPage.swift in Sources */,
+				38906751205D64A20096CCDC /* ViewController.swift in Sources */,
+				3890674F205D64A20096CCDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38906752205D64A20096CCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38906753205D64A20096CCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38906757205D64A20096CCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38906758205D64A20096CCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3890675B205D64A20096CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3890675C205D64A20096CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3890675E205D64A20096CCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D912B884E382D751C2F8F21 /* Pods-Adagio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CPTU86WRG;
+				INFOPLIST_FILE = Adagio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amigo.ived.260997.Adagio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3890675F205D64A20096CCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2F099B728EDA1E0E2D9087 /* Pods-Adagio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CPTU86WRG;
+				INFOPLIST_FILE = Adagio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amigo.ived.260997.Adagio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38906746205D64A20096CCDC /* Build configuration list for PBXProject "Adagio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3890675B205D64A20096CCDC /* Debug */,
+				3890675C205D64A20096CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3890675D205D64A20096CCDC /* Build configuration list for PBXNativeTarget "Adagio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3890675E205D64A20096CCDC /* Debug */,
+				3890675F205D64A20096CCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38906743205D64A20096CCDC /* Project object */;
+}
