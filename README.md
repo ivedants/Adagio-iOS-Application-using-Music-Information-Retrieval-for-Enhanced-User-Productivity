@@ -172,6 +172,4 @@ We strongly believe that Adagio will drastically change the face of how people a
 
 ## Author:
 
-# Authors
-
 Vedant Shrivastava (GitHub: https://github.com/ivedants ; Email: ivedantshrivastava@gmail.com)
