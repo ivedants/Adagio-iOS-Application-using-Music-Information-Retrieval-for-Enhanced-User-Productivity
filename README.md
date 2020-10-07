@@ -4,6 +4,28 @@ An iOS application using a Machine Learning Algorithm for classifying music file
 
 ![alt text](https://github.com/ivedants/Adagio-iOS-Application-using-Music-Information-Retrieval-for-Enhanced-User-Productivity/blob/main/App%20Screenshots/Screenshot%20-%201.png?raw=true)
 
+## Table of Contents  
+
+- [Getting Started](#getting-started)  
+- [Introduction](#introduction)
+- [What Adagio actually means](#what-adagio-actually-means)
+- [Background](#background)
+- [Importance of this project](#importance-of-this-project)
+- [Objectives and Scope](#objectives-and-scope)
+- [Built Using](#built-using)
+- [Components of Adagio](#components-of-adagio)
+  - [Smart Login System](#1-smart-login-system)
+  - [Enhanced To-Do List](#2-enhanced-to-do-list)
+  - [Advanced Music Player](#3-advanced-music-player)
+- [Behind the Curtains of a Spotify Music File](#behind-the-curtains-of-a-spotify-music-file)
+- [Thayer's Model of Mood](#thayers-model-of-mood)
+- [Mood Based Task Recommendation](#mood-based-task-recommendation)
+- [Authorization Code Flow for Spotify Accounts Login](#authorization-code-flow-for-spotify-accounts-login)
+- [Future Scope](#future-scope)
+- [Deployment and Testing](#deployment-and-testing)
+- [Conclusion](#conclusion)
+- [References](#references)
+
 ## Getting Started
 
 In order to run this app, you will need to have Xcode installed on your Mac and you can test run the app in your iOS device via Xcode. You will also be required to have a Spotify User Account, Developer Account, and your own Spotify API Key. 
